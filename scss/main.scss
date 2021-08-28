@@ -34,7 +34,7 @@ main {
   }
   
   
-  #display {
+  .display {
     @include shadow-inset;
     width: 320px;
     height: 60px;
