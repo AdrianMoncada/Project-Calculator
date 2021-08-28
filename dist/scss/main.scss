@@ -29,19 +29,12 @@ main {
   padding: 2rem;
   border-radius: 30px;
   
-  input, button {
+  button {
     outline: none;
   }
   
-  input::-webkit-outer-spin-button,
-  input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-  }
-  input[type=number] {
-    -moz-appearance:textfield;
-  }
   
-  input {
+  #display {
     @include shadow-inset;
     width: 320px;
     height: 60px;
